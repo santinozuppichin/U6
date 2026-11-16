@@ -1,0 +1,42 @@
+/* El body tiene color de fondo; las secciones con otro color (bg-white) lo sobrescriben */
+body {
+  background-color: #f1f3f5;
+  color: #212529;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* evita que la navbar tape el título al navegar */
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #212529;
+}
+
+.proyecto {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.proyecto:hover {
+  transform: scale(1.03);
+}
+
+.formulario {
+  max-width: 600px;
+}
+
+.redes a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0 8px;
+}
+
+.redes a:hover {
+  color: #ffc107;
+}
